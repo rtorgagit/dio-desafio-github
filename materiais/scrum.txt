@@ -1,0 +1,93 @@
+## Scrum
+	- Processo de Desenvolvimento
+		- Concepção
+		- Análise e design
+		- Desenvolvimento
+		- Testes
+		- Implantação
+	- Tradicional vs. Ágil
+	- Tradicional(Waterfall) - Requisitos, design, implementação, homologação, manutenção
+	- Ágil (incremental e iterativo) - requisitos, análise, construção, testes, liberação
+	- Scrum - é um dos frameworks de gerenciamento de projetos ágeis, projetos usando equipes pequenas e multidisciplinares produzemos melhores resultados.
+	- Pilares do scrum - Transparência, adaptação e inspeção.
+	- Caracteristicas do time Scrum
+		- equipes capazes de se auto-organizarem
+		- as tarefas são do time e todos são responsáveis
+		- forte compromentimento com os resultados
+	- Papéis e responsabilidades
+		- Product Owner (PO 1 pessoa)
+			- Representa a área de negócios, não é um comitê
+			- Define as funcionalidade do software (Product backlog)
+			- Prioriza as funcionalidades de acordo com o valor do negócio
+			- Garante que o time de desenvolvimento entenda os itens do backlog no nível necessário
+		- Scrum Master (SM)
+			- Garantir o uso correto do scrum
+			- NÃO é gerente de projetos (não delega atividade para os devs)
+			- Age como facilitador
+			- Auxilia o PO no planejamento e estimativas do backlog
+			- Auxilia a equipe a remover impedimentos
+			- Treina o time em autogerenciamento e interdiciplinaridade
+		- Time de desenvolvimento (Dev 3 a 9 pessoas)
+			- Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, tudo que for necessário para entregar o software funcionando.
+	- Time box - tempo máximo para fazer uma cerimônia ou sprint
+	- Cerimônias do Scrum
+		- Sprint - É o evento principal do scrum, ocorre em no máximo 30 dias corridos
+			- Composição da sprint
+				- planejamento da sprint (time box: normalmente demora 8h para uma sprint de 30 dias )
+					- Participam o PO, SM, Time
+					- Em 4h horas o PO explica as funcionalidades e tira as dúvidas do time, nas outras 4h o time decide como vai fazer para entregar o que foi solicitado, time estima o tempo de cada tarefa (planning poker)
+					
+				- reuniões diárias (daily meeting 15 min)
+					- Participam o PO, SM, Time
+					- Time responde 3 perguntas: o que fez no dia anterior, o que fará no dia e se tem algum impedimento
+					
+				- revisão da sprint (review - time box: 4h para uma sprint de 30 dias)
+					- No último dia da sprint o Time de Dev apresernta paa o PO o trabalho feito
+					
+				- retrospectiva da sprint (time box: 3h para sprint de 30 dias)
+					- Reunião da equipe para lições aprendidas (transparência)
+					- Time de Dev (mas o PO e o SM podem participar também)
+					
+	- Product Owner
+		- representa o profissional que tem a visão do que será desenvolvido, as necessidades a serem atendidas, o público que vai utilizar os serviçõs e os objetivos a serem alcançados.
+		- pode cancelar uma sprint
+		- Release planning - liberação ou lançamento de software - é o lançamento de nova versão oficial de produto de software. Não é obrigatório que cada sprint gere uma release. Mas quanto mais acumular maior a probabilidade de encontrar algum problema na hora do merge de código.
+	
+	- Definindo escopo e prioridades
+		- Product backlog - é composto por épicos e estórias (e atividades). 
+			- Épicos - incremento sem muito detalhamento, ajuda a te direcionar dos caminhos que deve seguir
+			- Estória - detalhamento dos épicos, um épico normalmente se divide em várias estórias, onde ficam descritos o que deve acontecer e suas regras de negócio.
+			- Modelo de Estória	
+				* Nome da estória
+				* Descrição da estória (eu, como, quero, quando)
+				* Regras de negócio (separar regras de front-end e regras de back-end)
+				* Tela (link ou imagem das telas a serem desenvolvidas)
+				* KPI (quais os objetivos/valor a estória precisa atingir)
+				* Tagueamento (como a estória será tagueada para poder mensurar os KPI)
+				* Critérios de Aceite (qual o passo-a-passo de todos os caminhos felizes possíveis a estória deve cumprir para que ela seja considera aceita)
+				
+	- Estórias vs Tarefas
+		- Épicos - é o macro das estórias
+		- Estórias - conjunto de tarefas
+		
+	- Critérios de aceite
+		- É uma lista de critérios que precisam ser alcançadas para que a User Story atenda os requisitos do usuário e seja aceita pelo PO.
+		- Os critérios de aceitação têm o objetivo de: definir limites para as user stories. Ajudar o PO a detalhar em alto nível o que é necessário para entregar valor ao cliente.
+	- Estimativa e planejamento	
+		- Planning poker - atividade de mensuração do esforço e complexidade das tarefas ou estórias. (quem der a maior e menor nota deve explicar pq deu esta nota)
+		
+	- Relacionamento com cliente/stakeholder
+		- pessoa ou grupo de pessoas interessadas no projeto em questão.
+	- Ritos
+		- Daily e Retrospectiva
+			- Daily - 15 minutos - Time Dev (não precisa do PO e SM)
+				- É para o time Dev saber o que todos estão fazendo.
+			- Retrospectiva
+				- Uma vez por sprint (o que foi bom, o que foi ruim na sprint) - Time Dev e o SM
+		- Refinamento
+			- Antes do início da sprint. Facilita a planning. Todos presented (Dev, PO, SM)
+		- Review
+			- Apresentação do que foi desenvolvido na sprint. Verifica se a demanda agrega valor ao negócio.
+		- Maturidade do Time	
+			- Utiliza os pilares do scrum (transparência, inspeção, adaptação)
+				- compromentimento, coragem, abertura, foco, respeito
